@@ -1,0 +1,20 @@
+<div class="wrapper">    
+    <div class="block">
+
+       <form [formGroup]="signup" (ngSubmit)="signupForm(signup)">
+           <input type="text" placeholder="Name" class="inp" formControlName="name"/>
+           <input type="text" placeholder="Email" class="inp" formControlName="email"/>
+           <input type="text" placeholder="password" class="inp" formControlName="password"/>
+           
+           <label for="myfile">Select files:</label>
+           <input type="file" id="myfile" name="myfile" multiple formControlName=""><br><br>
+           
+           <div class="btns">
+           <button type="submit" >SignUp</button>
+           
+           </div>
+       </form>
+
+    </div>  
+
+</div>

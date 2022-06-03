@@ -1,0 +1,15 @@
+<div class="wrapper">    
+    <div class="block">
+
+       <form [formGroup]="loginForm" class="login-container" (ngSubmit)="submitForm()">
+           <input type="text" placeholder="Email" class="inp" formControlName="email">
+           <input type="text" placeholder="password" class="inp" formControlName="password">
+           <div class="btns">
+            <input type="submit" value="Log in">
+           
+           </div>
+       </form>
+
+    </div>  
+
+</div>

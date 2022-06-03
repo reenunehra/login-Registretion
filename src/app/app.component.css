@@ -1,0 +1,29 @@
+#nested-routing {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  nav {
+    font-family: sans-serif;
+    padding-left: 10px;
+  }
+    ul {
+      padding: 0;
+    }
+      li {
+        list-style-type: none;
+        padding: 5px 0;
+        font-size: 10pt;
+        display: inline-block;
+        margin-right: 10px;
+        outline: none;
+        cursor: pointer;
+      }
+ 
+  
+  #routeWrapper {
+    height: 300px;
+    margin: 0 5px;
+    padding: 10px;
+    font-size: 10pt;
+  }
+  
